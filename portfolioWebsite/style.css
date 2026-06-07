@@ -1,0 +1,206 @@
+body {
+    background-image: url('scans/cloud_dog.glb');
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.textScroll{
+    overflow-y: auto;
+    max-height: 70vh;   /* adjust number if needed */
+  }
+  
+.titleHover{
+    position: fixed;
+    top: 1px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+.titleHover:hover .hide{
+    display: inline;
+    font-size: 13px;
+    color: rgb(255, 0, 0);
+}
+
+
+#feeling_lucky {
+    position: absolute;
+    bottom: 2%;
+    left: 45vw;
+    width: 200px;
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    font-size: 60px;
+}
+
+.process {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+
+
+section[id="click4more"] {
+    position: fixed;
+    left: 5%;
+    top: 70%;
+    line-height: 0.00000001;
+    text-align: right;
+
+  }
+
+section[id="archive"] {
+    position: absolute;
+    right: 5%;
+    top: 70%;
+    line-height: 0.2;
+
+  }
+
+  section[data-year="2023"]{
+    position: relative;
+    line-height: 0.2;
+
+  }
+
+section[data-year="2024"]{
+    position: relative;
+    line-height: 0.2;
+
+  }
+  
+  section[data-year="2025"]{
+    position: relative;
+    line-height: 0.2;
+
+  }
+
+  section[data-year="2026"]{
+    position: relative;
+    line-height: 0.2;
+
+  }
+
+
+
+
+
+
+
+
+
+  .hover-word {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.textbox {
+    display: none;
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+    transform: translate(150px, -50px);
+    overflow-y: auto;
+
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.hover-word:hover .textbox {
+    display: block;
+}
+
+
+
+
+
+
+
+/* set up instant though log*/
+.msg1 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 1%;
+    /* change to top:0 if you want */
+    overflow-x: hidden;
+    white-space: nowrap;
+    color: rgb(255, 0, 0);
+}
+
+
+.msg2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 1%;
+    /* change to top:0 if you want */
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(255, 0, 0);
+
+}
+
+.track {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 100s linear infinite;
+}
+
+.msg1 .track {
+    animation-direction: normal;
+}
+
+.msg2 .track {
+    animation-direction: reverse;
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0)
+    }
+
+    to {
+        transform: translateX(-100%)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ARTIST STATMENT */
+
+.hide {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+      
+  .myDIV:hover + .hide {
+    display: block;
+    color: red;
+  }

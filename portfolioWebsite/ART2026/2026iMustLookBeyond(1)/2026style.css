@@ -1,0 +1,50 @@
+h1 {
+    position: fixed;
+    top: 38%;
+    left: 27%;
+    transform: translateX(0);
+    transition: transform 0.1s linear;
+  }
+  
+  h1.locked {
+    position: absolute;
+  }
+  
+
+.goodPic{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 1vw;
+    margin-bottom: 90vh;
+    gap: 12px;  
+  }
+  
+  .goodPic img{
+    flex: 0 0 auto;       /* don't shrink into weird sizes */
+    width: 31vw;
+    height: auto;
+    justify-content: center;       /* optional spacing */
+
+  }
+
+  
+  .mainPic {
+    display: block;
+    margin-bottom: 150vh;
+  }
+
+.mainPic img{
+    position: absolute;
+    left: 22%;
+    top: 40%;
+    width: 10%;
+    height: 10px;
+}
+
+.text1{
+    position: relative;
+    left: 0%;
+    top: 50%;
+    font-size: 20px;
+    color: black;
+}
