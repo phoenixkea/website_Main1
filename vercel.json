@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/takemeonastroll",
+        "destination": "https://takemeonastroll.vercel.app/"
+      },
+      {
+        "source": "/takemeonastroll/:path*",
+        "destination": "https://takemeonastroll.vercel.app/:path*"
+      }
+    ]
+  }
+  
