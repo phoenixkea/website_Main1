@@ -6,6 +6,24 @@ body {
 
 }
 
+model-viewer {
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+    top: -25%;
+    left: 100px;
+}
+
+#scrollBoxText {
+    position: absolute;
+    top: 23vh;
+    left: 1vw;
+    width: min(40%, 500px);
+    height: 400px;
+    overflow: auto;
+    border: 1px solid transparent;
+  }
+  
 .textScroll{
     overflow-y: auto;
     max-height: 70vh;   /* adjust number if needed */
