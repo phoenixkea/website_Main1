@@ -1,6 +1,5 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
-  
     "redirects": [
       {
         "source": "/takemeonastroll",
@@ -8,7 +7,6 @@
         "permanent": false
       }
     ],
-  
     "rewrites": [
       {
         "source": "/takemeonastroll/:path*",
