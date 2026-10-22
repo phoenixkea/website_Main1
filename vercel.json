@@ -6,12 +6,19 @@
       "destination": "https://takemeonastroll.vercel.app/:path*"
     },
     {
-      "source": "/bored1html",
+      "source": "/bored1html/",
       "destination": "https://bored1html.vercel.app/"
     },
     {
       "source": "/bored1html/:path*",
       "destination": "https://bored1html.vercel.app/:path*"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/bored1html",
+      "destination": "/bored1html/",
+      "permanent": true
     }
   ]
 }
